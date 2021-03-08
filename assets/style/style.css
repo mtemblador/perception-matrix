@@ -78,7 +78,7 @@ header nav ul {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    padding: 30px;
+    padding: 70px;
     align-items: center;
   }
   
@@ -87,7 +87,7 @@ header nav ul {
   } 
 
   .JFK, .TR, .FDR, .AL, .GWB, .CN, .ST, .SJ, .FG, .WM, .CA, .BP, .Hulk, .IM {
-      margin: 50px
+      margin: 30px
   }
 
   .JFK {
@@ -107,6 +107,7 @@ header nav ul {
     width: 100px;
     background-size: cover;
     opacity: .5;
+    padding-left: 45px;
 }
     .FDR:hover{
         opacity: 1;
@@ -140,6 +141,97 @@ header nav ul {
     opacity: .5;
 }
     .TR:hover{
+        opacity: 1;
+    }
+  .BP {
+    background-image: url(../Images/BP.png);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    opacity: .5;
+}
+    .BP:hover{
+        opacity: 1;
+    }
+  .CA {
+    background-image: url(../Images/CA.png);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    opacity: .5;
+}
+    .CA:hover{
+        opacity: 1;
+    }
+  .CN {
+    background-image: url(../Images/CN.png);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    opacity: .5;
+}
+    .CN:hover{
+        opacity: 1;
+    }
+  .FG {
+    background-image: url(../Images/Fergie.png);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    opacity: .5;
+  }
+
+  .FG:hover{
+      opacity: 1;
+  }
+  .Hulk {
+    background-image: url(../Images/Hulk.png);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    opacity: .5;
+}
+    .Hulk:hover{
+        opacity: 1;
+    }
+  .IM {
+    background-image: url(../Images/IM.png);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    opacity: .5;
+}
+    .IM:hover{
+        opacity: 1;
+    }
+  .SJ {
+    background-image: url(../Images/S.png);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    opacity: .5;
+}
+    .SJ:hover{
+        opacity: 1;
+    }
+  .ST {
+    background-image: url(../Images/ST.png);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    opacity: .5;
+}
+    .ST:hover{
+        opacity: 1;
+    }
+  .WM {
+    background-image: url(../Images/Wanda.png);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    opacity: .5;
+}
+    .WM:hover{
         opacity: 1;
     }
 
