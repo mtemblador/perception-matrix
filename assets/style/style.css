@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: rgb(250, 6, 6);
+    --secondary-color:rgb(0, 0, 0);
+    --tertiary-color:black;
+}
+
+body {
+    color: var(--secondary-color);
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+header {
+    padding: 10px 35px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: var(--secondary-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    margin: 0 30px;
+    font-size: 3.00vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header nav ul li a:hover {
+    background: var(--primary-color);
+    color: white;
+    border-radius: 15px;
+    text-shadow: none;
+  }
+
+  .hero {
+      width: 100%;
+      font-size: 50px;
+  }
+
+  .aboutthePM {
+      display: flex;
+  }
+    .PMImage {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+
+  img {
+    width: 600px;
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 30px;
+  }
+  
+  .images {
+    margin: 50px;
+  } 
+
+  .JFK, .TR, .FDR, .AL, .GWB, .CN, .ST, .SJ, .FG, .WM, .CA, .BP, .Hulk, .IM {
+      margin: 50px
+  }
+
+  .JFK {
+      background-image: url("../Images/JFK.png");
+      height: 50px;
+  }
