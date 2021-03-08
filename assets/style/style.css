@@ -89,6 +89,8 @@ header nav ul {
   }
 
   .JFK {
-      background-image: url("../Images/JFK.png");
-      height: 50px;
+    background-image: url(../Images/JFK.png);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
   }
