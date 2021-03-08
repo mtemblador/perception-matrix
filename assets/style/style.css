@@ -62,6 +62,7 @@ header nav ul {
 
   .aboutthePM {
       display: flex;
+      padding: 50px;
   }
     .PMImage {
     display: flex;
@@ -78,6 +79,7 @@ header nav ul {
     justify-content: space-evenly;
     flex-direction: column;
     padding: 30px;
+    align-items: center;
   }
   
   .images {
@@ -93,4 +95,51 @@ header nav ul {
     height: 100px;
     width: 100px;
     background-size: cover;
+    opacity: .5;
   }
+
+  .JFK:hover{
+      opacity: 1;
+  }
+  .FDR {
+    background-image: url(../Images/FDR.png);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    opacity: .5;
+}
+    .FDR:hover{
+        opacity: 1;
+    }
+  .GWB {
+    background-image: url(../Images/GWB.png);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    opacity: .5;
+  }
+
+  .GWB:hover{
+      opacity: 1;
+  }
+  .AL {
+    background-image: url(../Images/AL.png);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    opacity: .5;
+}
+    .AL:hover{
+        opacity: 1;
+    }
+  .TR {
+    background-image: url(../Images/TR.png);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    opacity: .5;
+}
+    .TR:hover{
+        opacity: 1;
+    }
+
